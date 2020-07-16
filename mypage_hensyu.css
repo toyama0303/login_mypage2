@@ -1,0 +1,108 @@
+body {
+  font-family: "Hiragino Kaku Gothic ProN", "メイリオ", sans-serif;
+  margin: 0 auto;
+  backgroud-color: #f8f8f8;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  box-shadow: 2px 2px 4px lightgray;
+  text-align: center;
+}
+
+header img {
+  margin-top: 15px;
+  height: 50px;
+  padding-left: 40px;
+}
+
+.logout {
+  float: right;
+  margin-top: 50px;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+main {
+  clear: left;
+  width: 100%;
+}
+
+.box {
+  margin: 0 auto;
+  border: 2px lightgray solid;
+  width: 800px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top:40px;
+  margin-bottom:40px;
+  padding: 0px 20px 0px 20px;
+  box-shadow: 4px 4px 4px lightgray;
+}
+
+h2 {
+  text-align: center;
+  border-bottom: 1px #31A263 solid;
+  font-size: 20px;
+}
+
+.hello {
+  padding: 0px 10px 0px 10px;
+}
+
+.profile_pic {
+  float: left;
+  display: inline-block;
+  border: 2px lightgray solid;
+  text-align: left;
+  margin: 20px 30px;
+}
+
+.profile_pic img {
+  width: 100px;
+  padding: 5px;
+}
+
+.basic_info {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.comments {
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 20px;
+  border-top: 1px lightgray solid;
+}
+
+.hensyubutton {
+  text-align: center;
+}
+
+.submit_button {
+  text-align: center;
+  border: 1px lightgray solid;
+  padding: 6px 30px 4px 30px;
+  color: white;
+  background-color: #31A263;
+  border-radius: 5px;
+  border-bottom: 2px gray solid;
+  width: 200px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  color: gray;
+  text-align: center;
+  line-height: 40px;
+  font-size: 13px;
+  border-top: 2px lightgray solid;
+}
